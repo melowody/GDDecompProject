@@ -1,5 +1,5 @@
+.gitignore
 build/
 .vscode/
 .git/
-libraries/cappuccino-sdk2
 libraries/minhook2

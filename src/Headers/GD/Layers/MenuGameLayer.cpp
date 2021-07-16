@@ -27,6 +27,7 @@ MenuGameLayer* MenuGameLayer::create() {
     return nullptr;
 } 
 
+/*
 /**
  * The function that's called when the MenuGameLayer is clicked on
  * 
@@ -34,10 +35,10 @@ MenuGameLayer* MenuGameLayer::create() {
  * @param event Unused
  * 
  * @return Unknown
- */
+ *
 bool MenuGameLayer::ccTouchBegan(CCTouch* touch, CCEvent* event) {
 
-    // UNFINISHED
+    // TODO: Finish this function
 
     CCPoint loc = touch->getLocation();
     CCPoint nodeLoc = this->convertToNodeSpace(loc);
@@ -49,4 +50,4 @@ bool MenuGameLayer::ccTouchBegan(CCTouch* touch, CCEvent* event) {
         }
     }
     return;
-}
+}*/

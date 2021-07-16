@@ -21,7 +21,9 @@
  */
 bool __fastcall customSetupHook(MenuLayer* self, void*) {
 
-    CCLayer::init();
+    // CCLayer::init();
+
+    reinterpret_cast<bool(__thiscall*)(CCLayer*)>(Utils::base + 0x261A40)(self);
 
     // Unsure
     CCDirector* director = CCDirector::sharedDirector();
